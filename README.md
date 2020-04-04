@@ -61,52 +61,66 @@
 
 ```json
 {
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Source Code Pro, Anonymous Pro, 'Courier New', monospace",
+    "workbench.colorTheme": "Seti Black",
+    "editor.fontSize": 14,
     "explorer.openEditors.visible": 0,
     "editor.snippetSuggestions": "top",
     "emmet.showAbbreviationSuggestions": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": false,
-    "workbench.colorTheme": "Seti Black",
     "window.zoomLevel": 1,
-    "workbench.iconTheme": "vscode-icons",
-    "editor.fontSize": 21,
     "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 24,
+    "terminal.integrated.fontSize": 14,
     "files.autoSave": "onFocusChange",
-    "editor.fontFamily": "Anonymous Pro",
     "editor.tabSize": 2,
     "editor.lineHeight": 0,
+    "editor.formatOnSave": true,
     "markdown.preview.fontSize": 36,
     "editor.minimap.enabled": false,
     "eslint.enable": true,
-    "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        }
-    ],
     "workbench.startupEditor": "newUntitledFile",
     "editor.suggestSelection": "first",
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.tabCompletion": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#ffc400",
+        "statusBar.border": "#ffffff",
+        "statusBar.foreground": "#000000",
     },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "liveshare.featureSet": "insiders"
+    "explorer.confirmDragAndDrop": false,
+    "bracketPairColorizer.colorMode": "Independent",
+    "bracketPairColorizer.independentPairColors": [
+        [
+            "()",
+            [
+                "Gold",
+                "Tomato",
+                "LightSkyBlue"
+            ],
+            "Red"
+        ],
+        [
+            "[]",
+            [
+                "Gold",
+                "Tomato",
+                "LightSkyBlue"
+            ],
+            "Red"
+        ],
+        [
+            "{}",
+            [
+                "Gold",
+                "Tomato",
+                "LightSkyBlue"
+            ],
+            "Red"
+        ]
+    ],
+    "bracketPairColorizer.timeOut": 0,
 }
 ```
