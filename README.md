@@ -122,5 +122,10 @@
         ]
     ],
     "bracketPairColorizer.timeOut": 0,
+     "prettier.singleQuote": true,
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "window.menuBarVisibility": "compact",
 }
 ```
