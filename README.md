@@ -2,7 +2,7 @@
 
 # Font
 
-* [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
+* [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 # Extensions
 
