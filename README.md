@@ -61,71 +61,55 @@
 
 ```json
 {
-    "explorer.confirmDelete": false,
-    "editor.fontFamily": "Source Code Pro, Anonymous Pro, 'Courier New', monospace",
-    "workbench.colorTheme": "Seti Black",
-    "editor.fontSize": 14,
-    "explorer.openEditors.visible": 0,
-    "editor.snippetSuggestions": "top",
-    "emmet.showAbbreviationSuggestions": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": false,
-    "window.zoomLevel": 1,
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 14,
-    "files.autoSave": "onFocusChange",
-    "editor.tabSize": 2,
-    "editor.lineHeight": 0,
-    "editor.formatOnSave": true,
-    "markdown.preview.fontSize": 36,
-    "editor.minimap.enabled": false,
-    "eslint.enable": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "on",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.wordWrap": "on",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#ffc400",
-        "statusBar.border": "#ffffff",
-        "statusBar.foreground": "#000000",
-    },
-    "explorer.confirmDragAndDrop": false,
-    "bracketPairColorizer.colorMode": "Independent",
-    "bracketPairColorizer.independentPairColors": [
-        [
-            "()",
-            [
-                "Gold",
-                "Tomato",
-                "LightSkyBlue"
-            ],
-            "Red"
-        ],
-        [
-            "[]",
-            [
-                "Gold",
-                "Tomato",
-                "LightSkyBlue"
-            ],
-            "Red"
-        ],
-        [
-            "{}",
-            [
-                "Gold",
-                "Tomato",
-                "LightSkyBlue"
-            ],
-            "Red"
-        ]
-    ],
-    "bracketPairColorizer.timeOut": 0,
-     "prettier.singleQuote": true,
-    "typescript.preferences.quoteStyle": "single",
-    "javascript.preferences.quoteStyle": "single",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "window.menuBarVisibility": "compact",
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "JetBrains Mono, Anonymous Pro, 'Courier New', monospace",
+  "workbench.colorTheme": "Seti Black",
+  "editor.fontSize": 14,
+  "explorer.openEditors.visible": 0,
+  "editor.snippetSuggestions": "top",
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "window.zoomLevel": 1,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 14,
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 0,
+  "editor.formatOnSave": true,
+  "markdown.preview.fontSize": 36,
+  "editor.minimap.enabled": false,
+  "eslint.enable": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#ffee00",
+    "activityBar.inactiveForeground": "#000000",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.activeBackground": "#000000",
+    "statusBar.background": "#ffee00",
+    "statusBar.noFolderBackground": "#ffee00",
+    "statusBar.border": "#ffffff",
+    "statusBar.foreground": "#000000"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "bracketPairColorizer.colorMode": "Independent",
+  "bracketPairColorizer.independentPairColors": [
+    ["()", ["Gold", "Tomato", "LightSkyBlue"], "Red"],
+    ["[]", ["Gold", "Tomato", "LightSkyBlue"], "Red"],
+    ["{}", ["Gold", "Tomato", "LightSkyBlue"], "Red"]
+  ],
+  "bracketPairColorizer.timeOut": 0,
+  "prettier.singleQuote": true,
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "python.languageServer": "Microsoft"
 }
+
 ```
